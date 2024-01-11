@@ -33,7 +33,7 @@ This module will:
 
 
 <p align="center">
-<img src="images/oldtimemap.png" width="700"/>
+<img src="images/oldtimemap.png" width="400"/>
 </p>
 
 We're going to build up a map similar to what we see above using a tool for symbolizing categorical polygon colors (This little exercise is from a Kurt Menke workshop). But first, we need to set up our project for the U.S.:
