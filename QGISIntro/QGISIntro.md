@@ -1,4 +1,4 @@
-# Introducing the opensource software QGIS - Overview
+# Introducing the opensource software QGIS - The Basics
 
 <img src="images/qgis-logo_2019.png" width="150"/>
 
@@ -6,23 +6,22 @@ QGIS is an opensource GIS desktop software compatible with mac, PC and Linux sys
 
 You can be part of the community at [qgis.org](https://qgis.org/en/site/)!
 
-## Resources
+### Materials
  - Software - access via the [QGIS download page](https://qgis.org/en/site/forusers/download.html)
  - Data - download from this dropbox [QGIS workshop data folder](https://www.dropbox.com/sh/3hxsx7vkv5mwy5e/AAAZWoctDaXnHgpebMdlBO62a?dl=0)
 
-## Module Overview
-This module starts with a brief introduction to "GIS" and geospatial data, then introduces the QGIS interface and how to work with data in the GUI. It wraps up with describing how to create a printable map.
+### Module Overview
+This module starts with a brief introduction to "GIS" and geospatial data, then introduces the QGIS interface and how to do some basic analysis by selecting data.
 
-## Module 1 Goals
+### Module 1 Goals
 This module will:
 - Remind us why spatial information can be important
 - Describe vector and raster geospatial data
 - Introduce the community and platform that is QGIS
 - Show you how to load data into QGIS
 - Describe how to do basic data styling
-- Introduce QGIS's Print Composter for making maps
 
-## Outline
+### Sections
 - [What is GIS?](#what-is-gis)
 - [Why QGIS?](#why-qgis)
 - [Data types](#data-types)
@@ -30,7 +29,6 @@ This module will:
 - [Loading Data](#loading-data)
 - [Styling Data](#styling-data)
 - [Exploring Spatial Relationships](#spatial-relationships)
-- [Making a Print Layout](#making-a-map)
 
 
 ## <a name="what-is-gis"></a>  What is GIS?
@@ -62,7 +60,7 @@ From the [QGIS](https://qgis.org) website, "QGIS is a user friendly Open Source 
 
 **QGIS is an official project of the [Open Source Geospatial Foundation (OSGeo)](https://www.osgeo.org/).**  "The Open Source Geospatial Foundation (OSGeo) is a not-for-profit organization whose mission is to foster global adoption of open geospatial technology by being an inclusive software foundation devoted to an open philosophy and participatory community driven development."  OSGeo supports and assists open source geospatial projects providing infrastructure and organization as well as conferences and means of communication with the broader public and education.
 
-# Why QGIS?
+## <a name="why-qgis"></a> Why QGIS?
 
 [QGIS](https://www.qgis.org) is an open source, community-driven desktop GIS software that allows users to visualize and analyze spatial data in a variety of ways.  There are many reasons to use QGIS, but here are a few: 
 
@@ -79,23 +77,6 @@ From the [QGIS](https://qgis.org) website, "QGIS is a user friendly Open Source 
 
 
 
-
-
-
-## <a name="why-qgis"></a> Why QGIS?
-
-QGIS is an open source, community-driven desktop GIS software that allows users to visualize and analyze spatial data in a variety of ways. There are many reasons to use QGIS, but here are a few:
-
-- It's a robust, powerful desktop GIS
-- Runs on all major platorms: Mac, Linux, & Windows
-- Free of charge, all access (no paid add-ons or extensions)
-- Frequent updates & bug fixes
-- Responsive, enthusiastic community
-- Integration with other geospatial tools & programming languages like R, Python, & PostGIS
-- Access to analysis tools from other established software like GRASS and SAGA
-- Native access to open data formats like geoJSON & GeoPackage
-- Comes in more than 40 languages, making it easier to work with a larger variety of colaborators
-- Growing use by local, state, federal, and international governments
 
 ## <a name="data-types"></a>   Data Types
 
@@ -124,7 +105,7 @@ Digital photos are raster data you are already familiar with. If you zoom in far
 </p>
 
 ## Download data
-Here is a list of data that are used in this workshop:
+Here is a list of data that are used in this module:
 
 Vector Shapefiles:
 
@@ -153,7 +134,7 @@ When QGIS opens, you may see a list of recent projects, or if this is a new inst
 
 
 ## <a name="qgis-interface"></a>  QGIS Interface
-Although this software is capable of integrating with code, we'll only use the Graphic User Interface or GUI ("gooey") in this workshop.
+Although this software is capable of integrating with code, we'll start with using the Graphic User Interface or GUI ("gooey").
 
 Here's what the QGIS GUI looks like with some important areas highlighted: 
 
@@ -161,7 +142,7 @@ Here's what the QGIS GUI looks like with some important areas highlighted:
 <img src="images/QGISInterface.png" width="1000"/>
 </p>
 
-(NOTE, yours may look a little different because you can customize this GUI. You can move toolbars and windows around to your liking, toggling them on/off, and add different capabilities to your version of the software.)
+(NOTE, yours may look a little different because you can customize this GUI.)
 
 1. Layers List / Browser Panel
 2. Map Canvas
@@ -173,6 +154,16 @@ Here's what the QGIS GUI looks like with some important areas highlighted:
 8. Open Data Source Manager (AKA adding data)
 
 Hover over the buttons for tooltips that will help you explore and remember what each tool is. Some will be greyed out because they can't work without data present in the project.
+
+You can move toolbars and windows around to your liking, toggling them on/off, and add different capabilities to your version of the software.
+
+Right click in part of the grey toolbar area at the top of the software. You will see a window appear showing you the panels and toolbars available. All of these are dockable. As you learn which ones you use the most, you can customize your QGIS interface.
+
+<p align="center">
+<img src="images/PanelsToolbars.png" width="1000"/>
+</p>
+
+Also note the options on the bottom. You have a search or locator box that will help you find layers or tools, and some readouts that tell you about the state of your project, including the CRS.
 
 For a more in-depth exploration of all of these controls (and for other in-depth lessons!) see the [QGIS training manual](https://docs.qgis.org/3.28/en/docs/training_manual/index.html)
 
@@ -383,55 +374,9 @@ Now we can select our Ponderosa Pines with the parks layer by using the Select b
 
 We have a total of 2068 Ponderosa Pines, with 1566 are in parks, so over 75% of these trees are in parks within our AOI even though parks are not a majority of the land!
 
-What other questions might you ask about the tree distributions in the main part of Denver? See the information at the end of this workshop to find Denver's full tree inventory dataset and explore further!
+What other questions might you ask about the tree distributions in the main part of Denver? See the data source below to find Denver's full tree inventory dataset and explore further!
 
 
-## <a name="making-a-map"></a>  Making a map
-
-We haven't accomplished any cartographic amazingness in this workshop, but let's practice making a quick printable map.
-
-- Pick an area of the map you find interesting. It could be the whole AOI, or you could zoom into a park.
-- On the main menu under Project, go down to New Print Layout... and click it
-- You'll see a small window that asks you to provide a name for this print composer. Fill it in with a name that makes sense.
-- Next, the print composer window with its own set of tools will appear. The big white area is where you'll build your map.
-- The tools on the left make building the map easy. Start with the top one of these shown in the next figure (Add Map) and draw a box for the size you'd like your map data to occupy.
-<img src="images/PrintLayoutTools.png" width="30"/>
-
-- Use the other tools for adding a title, a scale bar, a legend and anything else your viewers need to be able to understand your map clearly!
-
-<p align="center">
-<img src="images/PrintLayoutGolfCourse.png" width="1000"/>
-</p>
-
-- Under Item Properties for each object you've added to your map, you can adjust details.
-- Save your print composer the same way you save your project. Don't lose your work!
-- When you like what you have, you can go to the Layout menu and pick Export as an image, an .svg or a .pdf.
-
-
-# Making a map with the print composer
-One common task in any desktop GIS is to produce a map to include in a document or presentation.  In QGIS we create maps in the *Print Composer*.  Let's make a finished map of our tree locations.
-
-## Prepare your Layers
-The first thing we need to do is add all the layers we want in our finished map to our Map Canvas in the main QGIS window.  Turn on your trees and roads layers and add in any other data you think will help support the tree locations such as the shoreline data.
-
-We also need to style our layers here as well.  Take some time to work with your layer symbology.  Make choices that you feel help communicate the data well.  Simple or plain choices are often better than complicated or fancy symbology.  For example, you could use a tree-shaped icon to represent your trees, but this would probably make a rather busy map.  A simple circle icon might be better.
-
-Just get to a point where you have a solid draft.  We can always make changes later if we decide we need to adjust.
-
-## Working in the Print Composer - edit from Tobias workshop
-Once you've added all the layers you need to your Map Canvas and styled them in a way you like, we can start composing our map.
-
-1. Open the *Print Composer* by clicking on the *Project* menu and choosing *New Print Layout*.
-1. Give your new Print Layout a name.  I'll call mine "Canary Pine Locations".  You can have multiple map layouts using the data in this map document, so pick a name that will remind you of the purpose of this map.  Click *OK* when you've picked a name. The *Print Composer* will now open.
-1. The white box in the middle of the window is where you will compose your map.  Right click in this white space and choose *Page Properties* from the menu that appears.  The menu on the right will now let us adjust the page size and orientation.  Let's use size *Letter* and *Landscape* orientation for this map.  
-1. Add a map to your layout by clicking the *Add Map* tool and then clicking and dragging on your map layout. ![alt text](./images/Tool_AddMap.PNG "Add Map tool.")  You can adjust the size so don't worry if it's not perfect at first.  The *Move Item* tool moves and adjusts items in your map.  ![alt text](./images/Tool_MoveItem.PNG "Move Item tool.")
-1. Adjust the scale of your map by selecting your map.  In the *Item Properties* on the right, adjust the scale number to zoom in or out of your map data.  I used a scale of about 40,000.
-1. Add other items to your map as needed: title, legend, scale bar, etc. The item properties for each item you add are available by selecting the item and editing the properties in the pane on the right side of the *Print Composer* window.
-1. When you've made a layout you like, you can export the map to a variety of formats.  On the *Layout* menu, select *Save as Image*.  Navigate to where you would like to save the image, name the file, and choose the type of image.  Let's pick .png for this image.  Click *Save*.
-1. Make any adjustments to the image parameters you would like.  Click *Save* to finish the process.
-1. When you're finished exporting your map, you can close the *Print Composer* window.
-
-CONGRATS! You've just performed some spatial analysis and made a map!
 
 ##
 *Data for this workshop was derived from the following sources*:
@@ -447,4 +392,3 @@ From [the National Hydrography Dataset](https://www.usgs.gov/national-hydrograph
 
 From [USGS National Map 3DEP](https://data.usgs.gov/datacatalog/data/USGS:77ae0551-c61e-4979-aedd-d797abdcde0e)
 - 1 meter DEM
-
