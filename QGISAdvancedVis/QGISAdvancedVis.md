@@ -13,8 +13,8 @@ In this mini-module, we'll work with some core plugins that are integrated into 
 QGIS has built-in capability to do some pretty wonderful things with data visualization. One of these is the ability to create animations with any data layer that has a date field. Another is visualizing 3D data, whether it is in the form of point clouds, DEMs or mesh files. We'll play with both of these capabilities briefly in this module.
 
 ### Sections
-- [Time Manager](#time)
-- [3D Visulization](#3d)
+- [Temporal Controller](#time)
+- [3D Visualization](#3d)
 
 
 ## <a name="time"></a>  Animations with the Temporal Controller
