@@ -160,7 +160,7 @@ You can move toolbars and windows around to your liking, toggling them on/off, a
 Right click in part of the grey toolbar area at the top of the software. You will see a window appear showing you the panels and toolbars available. All of these are dockable. As you learn which ones you use the most, you can customize your QGIS interface.
 
 <p align="center">
-<img src="images/PanelsToolbars.png" width="1000"/>
+<img src="images/PanelsToolbars.png" width="300"/>
 </p>
 
 Also note the options on the bottom. You have a search or locator box that will help you find layers or tools, and some readouts that tell you about the state of your project, including the CRS.
