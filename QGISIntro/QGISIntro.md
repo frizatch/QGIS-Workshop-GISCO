@@ -7,8 +7,8 @@ QGIS is an opensource GIS desktop software compatible with mac, PC and Linux sys
 You can be part of the community at [qgis.org](https://qgis.org/en/site/)!
 
 ### Materials
- - Software - access via the [QGIS download page](https://qgis.org/en/site/forusers/download.html)
- - Data - download from this dropbox [QGIS workshop data folder](https://www.dropbox.com/sh/3hxsx7vkv5mwy5e/AAAZWoctDaXnHgpebMdlBO62a?dl=0)
+ - Software: access via the [QGIS download page](https://qgis.org/en/site/forusers/download.html)
+ - Data: download from this [Denver Data dropbox](https://www.dropbox.com/scl/fo/2kd6feybltvpaicrk496k/h?rlkey=zn7df10iqmbhbxhicm1oacb22&dl=0)
 
 ### Module Overview
 This module starts with a brief introduction to "GIS" and geospatial data, then introduces the QGIS interface and how to do some basic analysis by selecting data.
