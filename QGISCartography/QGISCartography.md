@@ -3,15 +3,15 @@
 <img src="images/qgis-logo_2019.png" width="150"/>
 
 
-## Resources
+### Materials
  - Software - access via the [QGIS download page](https://qgis.org/en/site/forusers/download.html)
  - Data - download from this dropbox [QGIS workshop data folder](https://www.dropbox.com/sh/3hxsx7vkv5mwy5e/AAAZWoctDaXnHgpebMdlBO62a?dl=0)
 
 
-## Module Overview
+### Module Overview
 In this module, we'll learn some cartography tricks, not only for our vector data, but also for labeling. We'll learn about some other methods on the way including a sneak peak at plugins so we can have a basemap. We'll wrap up with learning how to export printable maps.
 
-## Module 2 Goals
+### Module 2 Goals
 This module will:
 - Help us recreate an old-timey map style (almost)
 - Introduce the processing toolbox
@@ -22,7 +22,7 @@ This module will:
 
 
 
-## Sections
+### Sections
 - [Old-time map of states](#colorful)
 - [Labeling 14er summits](#summits)
 - [Print Composer](#print-composer)
