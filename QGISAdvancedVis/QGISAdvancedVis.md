@@ -70,7 +70,7 @@ Click on the *Options* icon (looks like a little wrench) and select *Configure..
 Choose the DEM (Raster) option and also pick the actual DEM file for the elevation information:
 
 <p align="center">
-<img src="images/selectdem3d.png" width="700"/>
+<img src="images/selectdem3d.png" width="400"/>
 </p>
 
 Once the viewer knows where the elevation data is, you can use the controller arrows (or alternatively *Shift* + arrow keys) to navigate around Mt. Rainier.
