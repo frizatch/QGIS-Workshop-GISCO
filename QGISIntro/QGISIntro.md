@@ -296,7 +296,7 @@ Your DEM now might look something like this:
 </p>
 
 
-## <a name="spatial-relationships"></a> Investigating Spatial Relationships
+## <a name="spatial-relationships"></a> Exploring Spatial Relationships
 
 Now that we understand what our data is and have stylized it so it makes a little more sense, let's explore some spatial relationships between our data layers.
 
