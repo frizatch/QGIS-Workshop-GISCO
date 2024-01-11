@@ -95,6 +95,10 @@ To do this, we'll sneak into our Plugins meny and grab one called QuickMapServic
 1. Under the *Web* menu, find your new plugin option
 1. Pick a basemap! (Google Roads is what I've used - it may be available in the base options of base maps)
 
+<p align="center">
+<img src="images/colorovergoogle.png" width="500"/>
+</p>
+
 # <a name="summits"></a> Labeling & Symbolizing Summits
 
 Now we're going to make a map of the 14ers in the state of Colorado and do some work with expressions for our symbology and labeling.
