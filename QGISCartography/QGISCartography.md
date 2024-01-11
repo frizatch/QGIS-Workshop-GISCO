@@ -33,7 +33,7 @@ This module will:
 
 
 <p align="center">
-<img src="oldtimemap.png" width="700"/>
+<img src="images/oldtimemap.png" width="700"/>
 </p>
 
 We're going to build up a map similar to what we see above using a tool for symbolizing categorical polygon colors (This little exercise is from a Kurt Menke workshop). But first, we need to set up our project for the U.S.:
@@ -58,7 +58,7 @@ The Topological Coloring Tool adds a new column with a color ID, but it does it 
 Now we can use this added column to do categorical symbolization of our states!
 
 <p align="center">
-<img src="colorid.png" width="700"/>
+<img src="images/colorid.png" width="700"/>
 </p>
 
 Open the Interactive Styling Dock
@@ -68,7 +68,7 @@ Open the Interactive Styling Dock
 1. Hit Classify
 
 <p align="center">
-<img src="statescolor.png" width="700"/>
+<img src="images/statescolor.png" width="700"/>
 </p>
 
 Shapeburst Fill
@@ -82,7 +82,7 @@ Shapeburst Fill
 1. Set the 2nd Gradient Color to Transparent via the menu from the dropdown
 
 <p align="center">
-<img src="statesstarburst.png" width="700"/>
+<img src="images/statesstarburst.png" width="700"/>
 </p>
 
 Add a base map!
@@ -106,7 +106,7 @@ Start by opening up the prepared QGIS project:  StateOfColorado.qgz
 It should look like this:
 
 <p align="center">
-<img src="stateofcolorado.png" width="700"/>
+<img src="images/stateofcolorado.png" width="700"/>
 </p>
 
 There's a lot going on in this project. Take some time to explore what's there before we add our 14er summits!
@@ -121,7 +121,7 @@ Add CSV 14er data to our map
 1. The CRS should be set to EPSG 4326 because our data is just lat/lon information
 
 <p align="center">
-<img src="14erCSVadd.png" width="700"/>
+<img src="images/14erCSVadd.png" width="700"/>
 </p>
 
 QGIS will bring in our 14er data as a point feature class, but we want to export it to a different layer with the project CRS.
@@ -134,7 +134,7 @@ Now let's do something interesting with the summit symbols and labels!
 Change the symbology to a triangle white marker:
 
 <p align="center">
-<img src="14ertriangle.png" width="700"/>
+<img src="images/14ertriangle.png" width="700"/>
 </p>
 
 Click on the size data defined override button to the right and enter this code and hit OK:
@@ -144,13 +144,13 @@ Click on the size data defined override button to the right and enter this code 
 
 
 <p align="center">
-<img src="14erscaled.png" width="700"/>
+<img src="images/14erscaled.png" width="700"/>
 </p>
 
 We'll now have our symbols proprotionately sized to how tall the peak is!
 
 <p align="center">
-<img src="scaledpeaksmap.png" width="700"/>
+<img src="images/scaledpeaksmap.png" width="700"/>
 </p>
 
 Now for some labeling!
@@ -161,19 +161,19 @@ Now for some labeling!
 / 2.0``` This defines the distance between the peak data and the label.
 
 <p align="center">
-<img src="distanceoverride.png" width="700"/>
+<img src="images/distanceoverride.png" width="700"/>
 </p>
 
 - Last but not least, we can add an expression that prioritizes where to place the labels in relation to the data points. Keep the placement as Cartographic and in the *Placement Priority* override enter: ```'B,BSR,BSL,BR,BL,R,L'``` Where B stands for bottom middle, BSR is bottom slightly right, BSL is bottom slightly left, BR is bottom right, and so on.
 
 <p align="center">
-<img src="priorityplacement.png" width="700"/>
+<img src="images/priorityplacement.png" width="700"/>
 </p>
 
 - You can also try scaling the font of the label with ```scale_linear("ELEVNUM", 14000, 14500, 10, 20)``` The flexibility is endless.
 
 <p align="center">
-<img src="scaledfont.png" width="700"/>
+<img src="images/scaledfont.png" width="700"/>
 </p>
 
 # <a name="print-composer"></a> Making a map with the print composer
