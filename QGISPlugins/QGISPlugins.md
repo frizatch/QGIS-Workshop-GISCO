@@ -56,7 +56,7 @@ The QuickMapServices plugin gives you access to a number of basemaps from variou
 - Recheck what basemaps are available to you!
 
 <p align="center">
-<img src="images/quickmappack.png" width="700"/>
+<img src="images/quickmappack.png" width="300"/>
 </p>
 
 
@@ -126,6 +126,6 @@ Once you've done that and added the qgis2web plugin, open the dialog from under 
 Leave the defaults. Click *Update preview* and see if you can see a result in the window before trying *Export*. A successful export will create an html file of your interactive map with the attributes as pop-ups.
 
 <p align="center">
-<img src="images/qgis2webpopup.png" width="700"/>
+<img src="images/qis2webpopup.png" width="500"/>
 </p>
 
