@@ -73,7 +73,7 @@ Choose the DEM (Raster) option and also pick the actual DEM file for the elevati
 <img src="images/selectdem3d.png" width="400"/>
 </p>
 
-Once the viewer knows where the elevation data is, you can use the controller arrows (or alternatively *Shift* + arrow keys) to navigate around Mt. Rainier.
+Once the viewer knows where the elevation data is, you can use the controller arrows (or alternatively *Shift* + arrow keys) to navigate around Mt. Rainier. And similar to the Temporal Controller, you can work with Keyframes to create an animation.
 
 <p align="center">
 <img src="images/control3d.png" width="700"/>
