@@ -58,7 +58,7 @@ The Topological Coloring Tool adds a new column with a color ID, but it does it 
 Now we can use this added column to do categorical symbolization of our states!
 
 <p align="center">
-<img src="images/colorid.png" width="700"/>
+<img src="images/colorid.png" width="400"/>
 </p>
 
 Open the Interactive Styling Dock
